@@ -1,0 +1,60 @@
+.primary{
+    background-color: #0116CE !important;
+}
+
+.primary:hover{
+    background-color: #0f1c98 !important;
+}
+
+.work-item:hover{
+    background-color: #0116CE !important;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+    -webkit-transition: ease-in-out 0.3s;
+    -moz-transition: ease-in-out 0.3s;
+    -ms-transition: ease-in-out 0.3s;
+    -o-transition: ease-in-out 0.3s;
+}
+
+.work-item:active{
+    background-color: #0116CE !important;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+    -webkit-transition: ease-in-out 0.3s;
+    -moz-transition: ease-in-out 0.3s;
+    -ms-transition: ease-in-out 0.3s;
+    -o-transition: ease-in-out 0.3s;
+}
+
+@media (max-width: 991.98px) {
+    .descProject {
+      display: none;
+    }
+    .source {
+      margin-top: 5vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .name {
+      font-size: 18px !important;
+    }
+    .about {
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+      .pr-title {
+        min-height: 10vw;
+      }
+      .imagepr {
+        height: 30vw !important;
+      }
+}
+
+@media (max-width: 380px) {
+
+}
+
+@media (max-width: 280px) {
+
+}

@@ -1,0 +1,56 @@
+.txt-type .txt {
+    padding-right: 3px;
+    color: #0116CE;
+  }
+  
+  .blinking-cursor {
+    color: #0116CE;
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+  }
+  
+  @keyframes blink {
+    from,
+    to {
+      color: #0116CE;
+    }
+    50% {
+      color: transparent;
+    }
+  }
+
+.about {
+  padding-top: 9vh;
+  padding-bottom: 22vh;
+}
+
+@media (max-width: 991.98px) {
+    .user-pfp {
+      display: none;
+    }
+    .minheight{
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .name {
+      font-size: 18px !important;
+    }
+    .about {
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+}
+
+@media (max-width: 380px) {
+
+}
+
+@media (max-width: 280px) {
+
+}
