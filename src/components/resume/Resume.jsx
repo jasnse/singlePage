@@ -18,7 +18,10 @@ const Resume = () => {
             <div className="row" style={{ marginBottom:'15vw', marginTop:'8vw'}}>
                 <div className="col-md-4 col-12 fs-1 fw-semibold pb-3">Experiences</div>
                 <div className="col-md-8 col-12">
-                    <p className="mb-5" style={{ textAlign: 'justify' }}>sdasd.</p>
+                    <p className="mb-5" style={{ textAlign: 'justify' }}>To enhance the technical skills I already possess, 
+                        I have honed them by taking courses offered during my studies and applying them through contributions 
+                        to various organizations in internship programs, volunteer work, and other initiatives. Below are the 
+                        detailed experiences I have included in my CV.</p>
                     <button onClick={dwn} className="btndwn py-3 px-5 rounded-2 text-white" style={{ backgroundColor: '#0116CE' }}>Download Resume</button>
                 </div>
             </div>
