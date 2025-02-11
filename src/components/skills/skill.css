@@ -1,3 +1,14 @@
 .accordion-body{
     min-height: 22vh;
+    
+    
+}
+
+.accordion-button.custom-accordion-header  {
+    background-color: #fd823a !important; /* Change this to your desired color */
+    /* color: white; Optional: Change text color for better contrast */
+}
+
+.accordion-button.custom-accordion-header :hover {
+    background-color: #fd823a !important; /* Optional: Change hover color */
 }

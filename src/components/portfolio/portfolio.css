@@ -1,13 +1,13 @@
 .primary{
-    background-color: #0116CE !important;
+    background-color: #fc5f13 !important;
 }
 
 .primary:hover{
-    background-color: #0f1c98 !important;
+    background-color: #440f06 !important;
 }
 
 .work-item:hover{
-    background-color: #0116CE !important;
+    background-color: #fc5f13 !important;
     transition: ease-in-out 0.3s;
     cursor: pointer;
     -webkit-transition: ease-in-out 0.3s;
@@ -17,7 +17,7 @@
 }
 
 .work-item:active{
-    background-color: #0116CE !important;
+    background-color: #fc5f13 !important;
     transition: ease-in-out 0.3s;
     cursor: pointer;
     -webkit-transition: ease-in-out 0.3s;

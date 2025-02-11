@@ -14,15 +14,17 @@ const Portfolio = () => {
         setItems(updateItems);
     }
 
+ 
+
     return (
         <section className="work container" id="work" style={{ marginBottom:'8vw', marginTop:'8vw'}}>
             <div className="row">
                 <p className="fs-1 fw-semibold" style={{ marginBottom:'1.4vw' }}>Recent Projects</p>
-                <div className="work-filters align-items-center mx-auto text-center mb-4 row">
+                <div className="work-filters align-items-center mx-auto text-center mb-5 row">
                     <div className="row text-center align-items-center justify-content-center mx-auto gap-3">
                         <div className="work-item col-md-2 col-5 text-white py-2 rounded-2" style={{ backgroundColor:'#6E7CFF' }} onClick={() => setItems(Menu)}>All Projects</div>
-                        <div className="work-item col-md-2 col-5 text-white py-2 rounded-2" style={{ backgroundColor:'#6E7CFF' }} onClick={() => filterItem("Website")}>Website</div>
-                        <div className="work-item col-md-2 col-5 text-white py-2 rounded-2" style={{ backgroundColor:'#6E7CFF' }} onClick={() => filterItem("Mobile")}>Mobile</div>
+                        <div className="work-item col-md-3 col-5 text-white py-2 rounded-2" style={{ backgroundColor:'#6E7CFF' }} onClick={() => filterItem("Software Analyst & Design")}>Software Analyst & Design</div>
+                        <div className="work-item col-md-2 col-5 text-white py-2 rounded-2" style={{ backgroundColor:'#6E7CFF' }} onClick={() => filterItem("Programing")}>Programing</div>
                         <div className="work-item col-md-2 col-5 text-white py-2 rounded-2" style={{ backgroundColor:'#6E7CFF' }} onClick={() => filterItem("UI/UX")}>UI/UX</div>
                     </div>
                 </div>
@@ -31,18 +33,14 @@ const Portfolio = () => {
                     {items.map((elem)=>{
                         const{id, image, title, category, desc, link} = elem;
                         return (
-                            <div key={id} className="col-md-4 col-6 mt-3">
+                            <div key={id} className="col-md-4 col-16 mt-3">
                                 <Card key={id}>
-                                <Card.Img variant="top" className="object-fit-cover imagepr" src={image} style={{height:'20vw'}}/>
+                                <Card.Img variant="top" className="object-fit-cover imagepr" src={image} style={{height:'13vw'}}/>
                                 <Card.Body className="rounded-2">
-                                <Card.Title className="fw-semibold pr-title"> {title} </Card.Title>
-                                <Card.Text className="mb-1" style={{ color: '#A7A7A7' }}>
-                                    {category}
-                                </Card.Text>
-                                <Card.Text className="mt-0 descProject" style={{ minHeight: '15vh', textAlign:'justify' }}>
-                                    {desc}
-                                </Card.Text>
-                                <Button className="primary source text-white px-4" target="_blank" href={link} >Source</Button>
+                                <Card.Title className="fw-semibold pr-title" style={{ color: '#ffae72' }}> {title} </Card.Title>
+                                <Card.Text className="mb-1" style={{ color: '#A7A7A7' }}>{category}</Card.Text>
+                                <Card.Text className="mt-0 descProject" style={{ minHeight: '15vh', textAlign:'justify', color: '#ffcca2' }}>{desc}</Card.Text>
+                                <Button className="primary source text-white px-4 border-none" target="_blank" href={link} >See Project</Button>
                                 </Card.Body>
                             </Card>
                             </div>

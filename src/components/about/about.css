@@ -1,10 +1,10 @@
 .txt-type .txt {
     padding-right: 3px;
-    color: #0116CE;
+    color: #fc5f13;
   }
   
-  .blinking-cursor {
-    color: #0116CE;
+  .blinking-cu  rsor {
+    color: #fc5f13;
     -webkit-animation: 1s blink step-end infinite;
     -moz-animation: 1s blink step-end infinite;
     -ms-animation: 1s blink step-end infinite;
@@ -15,7 +15,7 @@
   @keyframes blink {
     from,
     to {
-      color: #0116CE;
+      color: #fc5f13;
     }
     50% {
       color: transparent;
@@ -27,9 +27,14 @@
   padding-bottom: 22vh;
 }
 
+.user-pfp {
+  object-fit: cover;
+}
+
 @media (max-width: 991.98px) {
     .user-pfp {
       display: none;
+      object-fit: cover;
     }
     .minheight{
         width: 100%;

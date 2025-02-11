@@ -14,7 +14,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 
 const Sidebar = ({navList, href, title}) => {
     const dot = {
-        color: '#0116CE',
+        color: '#fbfcf5',
         border: 'none',
     };
 
@@ -26,12 +26,12 @@ const Sidebar = ({navList, href, title}) => {
                     {[false].map((index,expand) => (
                             <Navbar key={index} expand="lg" className="mb-3 bg-transparent border-none">
                             <Container>
-                              <Navbar.Brand href="#home" className="fw-semibold logo fs-1">{title}<b style={dot}>.</b></Navbar.Brand>
+                              <Navbar.Brand href="#home" className="fw-semibold logo fs-1" style={{ fontSize: '1.1rem', color:'#fbfcf5' }}>{title} <b style={dot}>.</b></Navbar.Brand>
                               <Navbar.Toggle aria-controls="basic-navbar-nav" />
                               <Navbar.Collapse id="basic-navbar-nav">
                                 <Nav className="ms-auto gap-5">
                                   { navList.map((item,index)=>(
-                                    <Nav.Link href= {href[index]} key = {index} className=" fw-semibold menu-item" style={{ fontSize: '1.1rem', color:'#1e1e1e' }}> {item} </Nav.Link>
+                                    <Nav.Link href= {href[index]} key = {index} className=" fw-semibold menu-item" style={{ fontSize: '1.1rem', color:'#fbfcf5' }}> {item} </Nav.Link>
                                   ))}
                                 </Nav>
                               </Navbar.Collapse>

@@ -9,13 +9,14 @@ import Skill from "./components/skills/Skill";
 import About from "./components/about/About";
 import Contact from "./components/contact/contact";
 
+
 const App = () => {
   let navList = ['Skills', 'Project', 'Resume'];
   let href = ['#skill', '#work', '#resume'];
 
   return (
-    <div>
-      <Sidebar navList={navList} href={href} title={"LIN"} />
+    <div className="text-white">
+      <Sidebar  navList={navList} href={href} title={"JASON"}/>
       <main className="main">
         <About />
         <Skill />

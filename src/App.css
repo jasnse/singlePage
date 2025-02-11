@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200;12..96,300;12..96,400;12..96,500;12..96,600;12..96,700&display=swap&family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200;12..96,300;12..96,400;12..96,500;12..96,600;12..96,700&display=swap&family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 
 #root {
   width: 100%;
@@ -6,21 +8,23 @@
 }
 
 :root{
-  --first-color: #0116CE;
-  --text-color: #1e1e1e;
+  --first-color: #ed4409;
+  --text-color: #fbfbfcf5;
   --body-color: #FBFAF5;
   --second-color: #DEBB00;
 
-  --body-font: 'Bricolage Grotesque', sans-serif;
+  --body-font: "Inter", serif;
 }
+
+
 
 ::-webkit-scrollbar {
   width: 10px;
-  background-color: #fbfaf5;
+  background-color: #fff5ed;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #0116CE;
+  background-color: #ed4409;
   border-radius: 5px;
 }
 
@@ -29,6 +33,6 @@ html {
 }
 
 *{
-  background-color: #FFFFFC;
+  background-color: #1e1e1e;
   font-family: var(--body-font);
 }
