@@ -33,7 +33,7 @@ const About = () => {
                 data-words='["Quality Assurance","UI/UX Designer", "System Analyst", "Business Analyst", "Data Analyst"]'
                 style={{ fontSize: '4rem' }}
               ></h1>
-              <p className="pt-3"> An fresh graduate student pursuing a degree in Information System Accounting & Auditing at Bina Nusantara University</p>
+              <p className="pt-3"> An fresh graduate student pursuing a degree in Information System Accounting & Auditing at Bina Nusantara University.</p>
             </div>
           </div>
         </div>
